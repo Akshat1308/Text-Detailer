@@ -39,7 +39,7 @@ export default function TextForm(props) {
             </div>
             <div className="container my-3" >
                 <h2>Your text summary</h2> <br />
-                <h5>{text.split(" ").length} words and {text.length} characters</h5>
+                <h5>{text.trim().split(/\s+/).length} words and {text.length} characters</h5>
                 <h5>Average reading time for this text is : {0.008 * text.split(" ").length} minutes</h5>
                 {showCartBox ?  <div  id="toggle" > <h5>Extracted emails : {text.match(/[\w\d.-]+@[\w\d.-]+\.[\w\d.-]+/g) + " "} </h5></div>:<></>}
             </div>

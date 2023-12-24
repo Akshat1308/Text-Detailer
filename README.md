@@ -1,3 +1,3 @@
 # Text Detailer
 
-link for website : https://textdetailer.netlify.app/
+Link for website : https://textdetailer.netlify.app/
